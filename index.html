@@ -1,8 +1,286 @@
 <html>
-<head>Hello</head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <title>Janet Chang</title>
+</head>
+
+<header>
+    <nav class="headnav">
+      <div class="headcontainer">
+        <div class="logo">
+        <a href="index.html" class="site-logo"><img src="images/JC.png" alt="jc-logo"/></a>
+      </div>
+
+        <h3>JANET CHANG</h3>
+        <ul>
+          <li><a href="">WORK</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
 <body>
-  Janet Chang
+  <div class="container">
+    <div class="item1">
+        <a href=""><img src="images/chicagobean.png" alt="Bean"/></a>
+        <h4>J A N E T &nbsp C H A N G</h4>
+        <p>New York born and now based in Chicago, IL<br><br>
+Likes dark brew coffees, the sound of rain against
+the windowpane, freshly fallen snow and
+reminiscing special moments</p>
+    </div>
+    <div class="item item2">
+      <a href=""><img src="images/catalyst-logo.png" alt="catalyst"/></a>
+    </div>
+    <div class="item item3">
+        <a href=""><img src="images/byteshelf site-logo.png" alt="bs-site-logo"/></a>
+    </div>
+    <div class="item item4">
+        <a href=""><img src="images/beautx-mobile-screen.png" alt="beautx"/></a>
+    </div>
+    <div class="item item5">
+            <a href=""><img src="images/bs-logo-design.png" alt="bs-logo"/></a>
+  </div>
+    <div class="item item6">
+      <a href=""><img src="images/bs-wire-frame.png" alt="wireframe"/></a>
+    </div>
+    <div class="item item7">
+  <a href=""><img src="images/partycandles.png" alt="candles"/></a>
+    </div>
+    <div class="item item8">
+        <a href=""><img src="images/florencewall.png" alt="florence"/></a>
+        <h3>D E T A I L S</h3><br>
+        <p>The key to UX/UI design is simplicity.  Want to make sure your
+          product is effective? Keep it simple.
+          Experience in:
+          <ul>
+            <li>user & market research</li>
+            <li>lo- and hi-wireframes</li>
+            <li>user stories</li>
+            <li>user personas</li>
+            <li>user flows</li>
+            <li>design mockups</li>
+            <li>prototypes and testing</li>
+    </div>
+  </div>
 </body>
 
+<style>
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
+}
+
+h4 {
+  font-size:20px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+p {
+  font-size:10px;
+  line-height: 19px;
+  font-weight: 100;
+  float:left;
+}
+
+.headnav:before,
+.headnav:after {
+  content: " ";
+  display: table;
+}
+
+.headnav:after {
+  clear:both;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 1em;
+  position: relative;
+}
+
+header nav ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin: 0;
+}
+header nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin:0 15px;
+}
+
+header nav ul > li > a {
+  color:#C86C50;
+  font-size: 14px;
+  text-decoration: none;
+}
+.item8 ul > li {
+  list-style-type: display;
+  font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  margin:0 15px;
+}
+
+.logo {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.item1 {
+  background-color: #FAF9F8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-gap: 5px;
+  grid-column: span 3;
+}
+
+.item1 img {
+     height: 100%;
+     width: auto;
+}
+
+.item2 {
+  background-color: #7D9192;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: 250px;
+  align-items: center;
+  min-width: 100px;
+}
+
+.item2 img{
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+}
+
+.item3 {
+  background-color: #F7F5F4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: 250px;
+  align-items: center;
+  min-width: 100px;
+}
+
+.item3 img{
+  width: 95%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item4 {
+  background-color: #EDE5DE;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: 250px;
+  align-items: center;
+  min-width: 100px;
+}
+
+.item4 img{
+  height: 80%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item5 {
+  background-color: #D9DFDF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: 250px;
+  align-items: center;
+  min-width: 100px;
+}
+
+.item5 img{
+  height: 80%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item6 {
+    background-color: #6C6B6C;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: 250px;
+    align-items: center;
+    min-width: 100px;
+  }
+
+  .item6 img{
+    height: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item7 {
+      background-color: #B1A399;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      display: grid;
+      grid-template-rows: 250px;
+      align-items: center;
+      min-width: 100px;
+    }
+
+    .item7 img{
+      width: auto;
+      height: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.item8 {
+  background-color: #F3E6DA;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px 10px 0px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-gap: 5px;
+  grid-column: span 3;
+}
+
+.item8 img{
+  height: 85%;
+  width: auto;
+  padding-top: 1em;
+
+}
+</style>
 </html>
