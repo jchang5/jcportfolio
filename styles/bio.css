@@ -1,0 +1,40 @@
+
+.aboutintro h4{
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.bodycontainer {
+    background-color: #FAF9F8;
+}
+
+.house img{
+  height: 100%;
+  width: auto;
+  align-items: center;
+}
+
+.house {
+  height: 200px;
+  text-align: center;
+}
+
+.bodytext h4 {
+  text-align: center;
+}
+
+.bodytext {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.bottomimg{
+  height: 200px;
+  text-align: center;
+}
+
+.bottomimg img{
+  height: 100%;
+  width: auto;
+  text-align: center;
+}
